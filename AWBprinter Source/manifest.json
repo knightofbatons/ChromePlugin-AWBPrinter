@@ -11,8 +11,8 @@
   ],
   "background": {
     "scripts": [
-      "background.js", 
-      "jquery-2.1.1.min.js"
+      "js/background.js", 
+      "js/jquery-2.1.1.min.js"
     ]
   },
   "content_scripts": [
@@ -22,8 +22,8 @@
         "http://accostest.airchinacargo.com/AWB_Information.asp"
       ],
       "js": [
-        "jquery-2.1.1.min.js",
-        "contentscript_useinfo.js"
+        "js/jquery-2.1.1.min.js",
+        "js/contentscript_useinfo.js"
       ]
     }
   ]

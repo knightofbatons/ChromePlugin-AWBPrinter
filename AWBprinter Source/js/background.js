@@ -2,7 +2,7 @@
 chrome.browserAction.onClicked.addListener(function (tab) {
 	if ("http://accostest.airchinacargo.com/Flight_Manifest.asp" === tab.url) {
 		chrome.tabs.executeScript({
-			file: "contentscript_getinfo.js"
+			file: "js/contentscript_getinfo.js"
 		});
 	}
 });
