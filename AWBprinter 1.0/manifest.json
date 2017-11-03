@@ -1,0 +1,30 @@
+{
+  "name": "AWB Printer",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Be used to print all the AWB information on Flight_Manifest page",
+  "browser_action": {
+    "default_title": "Help u print AWB"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+      "background.js", 
+      "jquery-2.1.1.min.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://accostest.airchinacargo.com/Flight_Manifest.asp",
+        "http://accostest.airchinacargo.com/AWB_Information.asp"
+      ],
+      "js": [
+        "jquery-2.1.1.min.js",
+        "contentscript_useinfo.js"
+      ]
+    }
+  ]
+}
