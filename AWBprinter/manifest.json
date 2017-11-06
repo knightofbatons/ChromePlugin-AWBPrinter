@@ -18,8 +18,8 @@
   "content_scripts": [
     {
       "matches": [
-        "http://accostest.airchinacargo.com/Flight_Manifest.asp",
-        "http://accostest.airchinacargo.com/AWB_Information.asp"
+        "http://accos.airchinacargo.com/Flight_Manifest.asp",
+        "http://accos.airchinacargo.com/AWB_Information.asp"
       ],
       "js": [
         "js/jquery-2.1.1.min.js",

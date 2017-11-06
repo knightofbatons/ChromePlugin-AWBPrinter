@@ -16,4 +16,4 @@ window.localStorage.setItem("printAWB", !1);
 var airwaybillListUnique = airwaybillList.unique3();
 window.localStorage.setItem("AWBList", airwaybillListUnique);
 console.log("AWB Printer: We will search & print ---\x3e " + airwaybillListUnique);
-window.open("http://accostest.airchinacargo.com/AWB_Information.asp");
+window.open("http://accos.airchinacargo.com/AWB_Information.asp");
