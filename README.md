@@ -18,6 +18,8 @@
 
 >插件会跳转到国内 `Domestic_AWB_Information` 页面进行批量打印并提示剩余需要打印数量，在打印完成后自动关闭页面，请勿在打印中关闭插件打开的页面，不然本插件只能重新打印所有。
 
+>浏览器打印使用默认打印机，在 `chrome://print/` 可以对浏览器默认打印机进行设置。
+
 >需要关闭谷歌浏览器打印预览，右键编辑你使用的浏览器快捷方式，在 `目标` 栏最后加入：
 ```
 --kiosk-printing
@@ -26,5 +28,3 @@
 ```
 "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --kiosk-printing
 ```
-
->关闭打印预览后浏览器打印使用默认打印机，在 `chrome://print/` 可以对浏览器默认打印机进行设置。
